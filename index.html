@@ -1,0 +1,2324 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">82%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">b</span>
+        <span class="key">p</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>31890</td>
+                <td>5014</td>
+                <td>24</td>
+                
+                <td>8129</td>
+                <td>776</td>
+                
+                <td class="right" data-ratio="32889 40019">82%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark___init___py.html">pyspark/__init__.py</a></td>
+                <td>43</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="49 51">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark__globals_py.html">pyspark/_globals.py</a></td>
+                <td>16</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="16 20">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_accumulators_py.html">pyspark/accumulators.py</a></td>
+                <td>112</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="112 134">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_broadcast_py.html">pyspark/broadcast.py</a></td>
+                <td>96</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="91 124">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_cloudpickle___init___py.html">pyspark/cloudpickle/__init__.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_cloudpickle_cloudpickle_py.html">pyspark/cloudpickle/cloudpickle.py</a></td>
+                <td>334</td>
+                <td>133</td>
+                <td>24</td>
+                
+                <td>148</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="270 482">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_cloudpickle_cloudpickle_fast_py.html">pyspark/cloudpickle/cloudpickle_fast.py</a></td>
+                <td>308</td>
+                <td>114</td>
+                <td>0</td>
+                
+                <td>118</td>
+                <td>18</td>
+                
+                <td class="right" data-ratio="252 426">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_cloudpickle_compat_py.html">pyspark/cloudpickle/compat.py</a></td>
+                <td>10</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="8 12">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_conf_py.html">pyspark/conf.py</a></td>
+                <td>75</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>42</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="104 117">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_context_py.html">pyspark/context.py</a></td>
+                <td>394</td>
+                <td>39</td>
+                <td>0</td>
+                
+                <td>119</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="451 513">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_daemon_py.html">pyspark/daemon.py</a></td>
+                <td>132</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="65 158">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_files_py.html">pyspark/files.py</a></td>
+                <td>15</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="14 17">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_find_spark_home_py.html">pyspark/find_spark_home.py</a></td>
+                <td>28</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="8 38">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_install_py.html">pyspark/install.py</a></td>
+                <td>82</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>33</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="107 115">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_java_gateway_py.html">pyspark/java_gateway.py</a></td>
+                <td>110</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="109 136">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_join_py.html">pyspark/join.py</a></td>
+                <td>66</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>58</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="120 124">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml___init___py.html">pyspark/ml/__init__.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_base_py.html">pyspark/ml/base.py</a></td>
+                <td>110</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="125 144">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_classification_py.html">pyspark/ml/classification.py</a></td>
+                <td>984</td>
+                <td>129</td>
+                <td>0</td>
+                
+                <td>193</td>
+                <td>22</td>
+                
+                <td class="right" data-ratio="1022 1177">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_clustering_py.html">pyspark/ml/clustering.py</a></td>
+                <td>432</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td>44</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="421 476">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_common_py.html">pyspark/ml/common.py</a></td>
+                <td>70</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td>42</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="93 112">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_evaluation_py.html">pyspark/ml/evaluation.py</a></td>
+                <td>239</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="214 265">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_feature_py.html">pyspark/ml/feature.py</a></td>
+                <td>1422</td>
+                <td>143</td>
+                <td>0</td>
+                
+                <td>102</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="1375 1524">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_fpm_py.html">pyspark/ml/fpm.py</a></td>
+                <td>119</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="104 123">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_functions_py.html">pyspark/ml/functions.py</a></td>
+                <td>24</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="26 28">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_image_py.html">pyspark/ml/image.py</a></td>
+                <td>85</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>31</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="98 116">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_linalg___init___py.html">pyspark/ml/linalg/__init__.py</a></td>
+                <td>528</td>
+                <td>56</td>
+                <td>0</td>
+                
+                <td>240</td>
+                <td>25</td>
+                
+                <td class="right" data-ratio="671 768">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_param___init___py.html">pyspark/ml/param/__init__.py</a></td>
+                <td>251</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td>121</td>
+                <td>16</td>
+                
+                <td class="right" data-ratio="343 372">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_param_shared_py.html">pyspark/ml/param/shared.py</a></td>
+                <td>224</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="218 224">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_pipeline_py.html">pyspark/ml/pipeline.py</a></td>
+                <td>177</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>68</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="239 245">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_recommendation_py.html">pyspark/ml/recommendation.py</a></td>
+                <td>158</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="138 168">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_regression_py.html">pyspark/ml/regression.py</a></td>
+                <td>650</td>
+                <td>108</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="577 688">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_stat_py.html">pyspark/ml/stat.py</a></td>
+                <td>109</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="108 123">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests___init___py.html">pyspark/ml/tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_algorithms_py.html">pyspark/ml/tests/test_algorithms.py</a></td>
+                <td>202</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="210 214">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_base_py.html">pyspark/ml/tests/test_base.py</a></td>
+                <td>48</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="54 56">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_evaluation_py.html">pyspark/ml/tests/test_evaluation.py</a></td>
+                <td>36</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 40">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_feature_py.html">pyspark/ml/tests/test_feature.py</a></td>
+                <td>187</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="203 205">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_image_py.html">pyspark/ml/tests/test_image.py</a></td>
+                <td>35</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="41 43">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_linalg_py.html">pyspark/ml/tests/test_linalg.py</a></td>
+                <td>267</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>54</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="313 321">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_param_py.html">pyspark/ml/tests/test_param.py</a></td>
+                <td>259</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>62</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="319 321">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_persistence_py.html">pyspark/ml/tests/test_persistence.py</a></td>
+                <td>314</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td>30</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="312 344">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_pipeline_py.html">pyspark/ml/tests/test_pipeline.py</a></td>
+                <td>41</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 45">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_stat_py.html">pyspark/ml/tests/test_stat.py</a></td>
+                <td>22</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 28">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_training_summary_py.html">pyspark/ml/tests/test_training_summary.py</a></td>
+                <td>350</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="350 352">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_tuning_py.html">pyspark/ml/tests/test_tuning.py</a></td>
+                <td>572</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>107</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="671 679">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_util_py.html">pyspark/ml/tests/test_util.py</a></td>
+                <td>36</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="40 42">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tests_test_wrapper_py.html">pyspark/ml/tests/test_wrapper.py</a></td>
+                <td>79</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="77 81">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tree_py.html">pyspark/ml/tree.py</a></td>
+                <td>106</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="101 112">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_tuning_py.html">pyspark/ml/tuning.py</a></td>
+                <td>705</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>234</td>
+                <td>21</td>
+                
+                <td class="right" data-ratio="884 939">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_util_py.html">pyspark/ml/util.py</a></td>
+                <td>284</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td>92</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="344 376">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_ml_wrapper_py.html">pyspark/ml/wrapper.py</a></td>
+                <td>176</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>72</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="237 248">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib___init___py.html">pyspark/mllib/__init__.py</a></td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="8 10">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_classification_py.html">pyspark/mllib/classification.py</a></td>
+                <td>197</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td>50</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="227 247">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_clustering_py.html">pyspark/mllib/clustering.py</a></td>
+                <td>244</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td>78</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="288 322">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_common_py.html">pyspark/mllib/common.py</a></td>
+                <td>82</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td>42</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="111 124">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_evaluation_py.html">pyspark/mllib/evaluation.py</a></td>
+                <td>182</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="196 204">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_feature_py.html">pyspark/mllib/feature.py</a></td>
+                <td>206</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="201 228">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_fpm_py.html">pyspark/mllib/fpm.py</a></td>
+                <td>53</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="61 65">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_linalg___init___py.html">pyspark/mllib/linalg/__init__.py</a></td>
+                <td>621</td>
+                <td>61</td>
+                <td>0</td>
+                
+                <td>272</td>
+                <td>33</td>
+                
+                <td class="right" data-ratio="795 893">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_linalg_distributed_py.html">pyspark/mllib/linalg/distributed.py</a></td>
+                <td>264</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td>60</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="264 324">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_random_py.html">pyspark/mllib/random.py</a></td>
+                <td>65</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="69 71">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_recommendation_py.html">pyspark/mllib/recommendation.py</a></td>
+                <td>78</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="92 100">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_regression_py.html">pyspark/mllib/regression.py</a></td>
+                <td>180</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>36</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="202 216">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_stat_KernelDensity_py.html">pyspark/mllib/stat/KernelDensity.py</a></td>
+                <td>17</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 19">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_stat___init___py.html">pyspark/mllib/stat/__init__.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_stat__statistics_py.html">pyspark/mllib/stat/_statistics.py</a></td>
+                <td>73</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="87 97">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_stat_distribution_py.html">pyspark/mllib/stat/distribution.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_stat_test_py.html">pyspark/mllib/stat/test.py</a></td>
+                <td>19</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 23">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_tests___init___py.html">pyspark/mllib/tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_tests_test_algorithms_py.html">pyspark/mllib/tests/test_algorithms.py</a></td>
+                <td>189</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="197 203">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_tests_test_feature_py.html">pyspark/mllib/tests/test_feature.py</a></td>
+                <td>97</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="107 109">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_tests_test_linalg_py.html">pyspark/mllib/tests/test_linalg.py</a></td>
+                <td>471</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>62</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="525 533">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_tests_test_stat_py.html">pyspark/mllib/tests/test_stat.py</a></td>
+                <td>104</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="110 112">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_tests_test_streaming_algorithms_py.html">pyspark/mllib/tests/test_streaming_algorithms.py</a></td>
+                <td>279</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td>78</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="328 357">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_tests_test_util_py.html">pyspark/mllib/tests/test_util.py</a></td>
+                <td>63</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="65 69">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_tree_py.html">pyspark/mllib/tree.py</a></td>
+                <td>99</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>16</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="107 115">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_mllib_util_py.html">pyspark/mllib/util.py</a></td>
+                <td>125</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>48</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="127 173">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_pandas___init___py.html">pyspark/pandas/__init__.py</a></td>
+                <td>55</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td>16</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="14 71">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_profiler_py.html">pyspark/profiler.py</a></td>
+                <td>75</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="81 97">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_rdd_py.html">pyspark/rdd.py</a></td>
+                <td>932</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td>321</td>
+                <td>29</td>
+                
+                <td class="right" data-ratio="1177 1253">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_rddsampler_py.html">pyspark/rddsampler.py</a></td>
+                <td>68</td>
+                <td>40</td>
+                <td>0</td>
+                
+                <td>32</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 100">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_resource___init___py.html">pyspark/resource/__init__.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_resource_information_py.html">pyspark/resource/information.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_resource_profile_py.html">pyspark/resource/profile.py</a></td>
+                <td>83</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="87 121">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_resource_requests_py.html">pyspark/resource/requests.py</a></td>
+                <td>117</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>46</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="161 163">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_resource_tests___init___py.html">pyspark/resource/tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_resource_tests_test_resources_py.html">pyspark/resource/tests/test_resources.py</a></td>
+                <td>54</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="56 56">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_resultiterable_py.html">pyspark/resultiterable.py</a></td>
+                <td>11</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 11">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_serializers_py.html">pyspark/serializers.py</a></td>
+                <td>339</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td>84</td>
+                <td>13</td>
+                
+                <td class="right" data-ratio="342 423">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_shuffle_py.html">pyspark/shuffle.py</a></td>
+                <td>395</td>
+                <td>90</td>
+                <td>0</td>
+                
+                <td>160</td>
+                <td>13</td>
+                
+                <td class="right" data-ratio="408 555">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql___init___py.html">pyspark/sql/__init__.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_avro___init___py.html">pyspark/sql/avro/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_avro_functions_py.html">pyspark/sql/avro/functions.py</a></td>
+                <td>47</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="42 59">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_catalog_py.html">pyspark/sql/catalog.py</a></td>
+                <td>119</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>30</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="139 149">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_column_py.html">pyspark/sql/column.py</a></td>
+                <td>237</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td>54</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="267 291">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_conf_py.html">pyspark/sql/conf.py</a></td>
+                <td>38</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="43 48">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_context_py.html">pyspark/sql/context.py</a></td>
+                <td>129</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="131 153">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_dataframe_py.html">pyspark/sql/dataframe.py</a></td>
+                <td>628</td>
+                <td>63</td>
+                <td>0</td>
+                
+                <td>274</td>
+                <td>47</td>
+                
+                <td class="right" data-ratio="790 902">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_functions_py.html">pyspark/sql/functions.py</a></td>
+                <td>866</td>
+                <td>78</td>
+                <td>0</td>
+                
+                <td>111</td>
+                <td>21</td>
+                
+                <td class="right" data-ratio="878 977">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_group_py.html">pyspark/sql/group.py</a></td>
+                <td>64</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="74 76">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_observation_py.html">pyspark/sql/observation.py</a></td>
+                <td>42</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>16</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="56 58">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas___init___py.html">pyspark/sql/pandas/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas_conversion_py.html">pyspark/sql/pandas/conversion.py</a></td>
+                <td>243</td>
+                <td>97</td>
+                <td>0</td>
+                
+                <td>126</td>
+                <td>11</td>
+                
+                <td class="right" data-ratio="219 369">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas_functions_py.html">pyspark/sql/pandas/functions.py</a></td>
+                <td>54</td>
+                <td>39</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 82">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas_group_ops_py.html">pyspark/sql/pandas/group_ops.py</a></td>
+                <td>52</td>
+                <td>27</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="28 62">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas_map_ops_py.html">pyspark/sql/pandas/map_ops.py</a></td>
+                <td>24</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="19 30">63%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas_serializers_py.html">pyspark/sql/pandas/serializers.py</a></td>
+                <td>145</td>
+                <td>113</td>
+                <td>0</td>
+                
+                <td>76</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="32 221">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas_typehints_py.html">pyspark/sql/pandas/typehints.py</a></td>
+                <td>36</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td>31</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 67">7%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas_types_py.html">pyspark/sql/pandas/types.py</a></td>
+                <td>143</td>
+                <td>115</td>
+                <td>0</td>
+                
+                <td>108</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="33 251">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_pandas_utils_py.html">pyspark/sql/pandas/utils.py</a></td>
+                <td>29</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="32 39">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_readwriter_py.html">pyspark/sql/readwriter.py</a></td>
+                <td>290</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td>108</td>
+                <td>20</td>
+                
+                <td class="right" data-ratio="317 398">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_session_py.html">pyspark/sql/session.py</a></td>
+                <td>267</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>100</td>
+                <td>14</td>
+                
+                <td class="right" data-ratio="319 367">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_streaming_py.html">pyspark/sql/streaming.py</a></td>
+                <td>298</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td>110</td>
+                <td>23</td>
+                
+                <td class="right" data-ratio="360 408">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests___init___py.html">pyspark/sql/tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_arrow_py.html">pyspark/sql/tests/test_arrow.py</a></td>
+                <td>395</td>
+                <td>322</td>
+                <td>0</td>
+                
+                <td>66</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="82 461">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_catalog_py.html">pyspark/sql/tests/test_catalog.py</a></td>
+                <td>133</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="170 171">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_column_py.html">pyspark/sql/tests/test_column.py</a></td>
+                <td>125</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="165 165">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_conf_py.html">pyspark/sql/tests/test_conf.py</a></td>
+                <td>25</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 29">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_context_py.html">pyspark/sql/tests/test_context.py</a></td>
+                <td>119</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="128 143">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_dataframe_py.html">pyspark/sql/tests/test_dataframe.py</a></td>
+                <td>529</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td>72</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="575 601">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_datasources_py.html">pyspark/sql/tests/test_datasources.py</a></td>
+                <td>93</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="101 101">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_functions_py.html">pyspark/sql/tests/test_functions.py</a></td>
+                <td>363</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>125</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="484 488">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_group_py.html">pyspark/sql/tests/test_group.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 23">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_pandas_cogrouped_map_py.html">pyspark/sql/tests/test_pandas_cogrouped_map.py</a></td>
+                <td>117</td>
+                <td>77</td>
+                <td>0</td>
+                
+                <td>27</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="47 144">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_pandas_grouped_map_py.html">pyspark/sql/tests/test_pandas_grouped_map.py</a></td>
+                <td>266</td>
+                <td>221</td>
+                <td>0</td>
+                
+                <td>67</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="52 333">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_pandas_map_py.html">pyspark/sql/tests/test_pandas_map.py</a></td>
+                <td>82</td>
+                <td>57</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="31 104">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_pandas_udf_py.html">pyspark/sql/tests/test_pandas_udf.py</a></td>
+                <td>129</td>
+                <td>106</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 149">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_pandas_udf_grouped_agg_py.html">pyspark/sql/tests/test_pandas_udf_grouped_agg.py</a></td>
+                <td>230</td>
+                <td>187</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 248">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_pandas_udf_scalar_py.html">pyspark/sql/tests/test_pandas_udf_scalar.py</a></td>
+                <td>702</td>
+                <td>617</td>
+                <td>0</td>
+                
+                <td>287</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="92 989">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_pandas_udf_typehints_py.html">pyspark/sql/tests/test_pandas_udf_typehints.py</a></td>
+                <td>141</td>
+                <td>109</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 151">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_pandas_udf_window_py.html">pyspark/sql/tests/test_pandas_udf_window.py</a></td>
+                <td>193</td>
+                <td>145</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="54 207">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_readwriter_py.html">pyspark/sql/tests/test_readwriter.py</a></td>
+                <td>125</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="129 129">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_serde_py.html">pyspark/sql/tests/test_serde.py</a></td>
+                <td>104</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="114 114">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_session_py.html">pyspark/sql/tests/test_session.py</a></td>
+                <td>229</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="238 247">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_streaming_py.html">pyspark/sql/tests/test_streaming.py</a></td>
+                <td>422</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td>46</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="440 468">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_types_py.html">pyspark/sql/tests/test_types.py</a></td>
+                <td>498</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>106</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="599 604">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_udf_py.html">pyspark/sql/tests/test_udf.py</a></td>
+                <td>465</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>144</td>
+                <td>18</td>
+                
+                <td class="right" data-ratio="587 609">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_tests_test_utils_py.html">pyspark/sql/tests/test_utils.py</a></td>
+                <td>32</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="44 44">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_types_py.html">pyspark/sql/types.py</a></td>
+                <td>709</td>
+                <td>48</td>
+                <td>0</td>
+                
+                <td>396</td>
+                <td>33</td>
+                
+                <td class="right" data-ratio="1002 1105">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_udf_py.html">pyspark/sql/udf.py</a></td>
+                <td>142</td>
+                <td>32</td>
+                <td>0</td>
+                
+                <td>50</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="143 192">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_utils_py.html">pyspark/sql/utils.py</a></td>
+                <td>90</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>27</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="103 117">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_sql_window_py.html">pyspark/sql/window.py</a></td>
+                <td>72</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="84 94">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_statcounter_py.html">pyspark/statcounter.py</a></td>
+                <td>78</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="63 98">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_status_py.html">pyspark/status.py</a></td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="26 28">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_storagelevel_py.html">pyspark/storagelevel.py</a></td>
+                <td>27</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 27">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming___init___py.html">pyspark/streaming/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_context_py.html">pyspark/streaming/context.py</a></td>
+                <td>140</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td>58</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="164 198">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_dstream_py.html">pyspark/streaming/dstream.py</a></td>
+                <td>251</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td>124</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="327 375">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_kinesis_py.html">pyspark/streaming/kinesis.py</a></td>
+                <td>25</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 31">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_listener_py.html">pyspark/streaming/listener.py</a></td>
+                <td>24</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 24">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_tests___init___py.html">pyspark/streaming/tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_tests_test_context_py.html">pyspark/streaming/tests/test_context.py</a></td>
+                <td>127</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>30</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="154 157">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_tests_test_dstream_py.html">pyspark/streaming/tests/test_dstream.py</a></td>
+                <td>421</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>101</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="505 522">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_tests_test_kinesis_py.html">pyspark/streaming/tests/test_kinesis.py</a></td>
+                <td>48</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 62">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_tests_test_listener_py.html">pyspark/streaming/tests/test_listener.py</a></td>
+                <td>114</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="113 140">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_streaming_util_py.html">pyspark/streaming/util.py</a></td>
+                <td>81</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="97 105">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_taskcontext_py.html">pyspark/taskcontext.py</a></td>
+                <td>87</td>
+                <td>52</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 111">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_testing___init___py.html">pyspark/testing/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_testing_mllibutils_py.html">pyspark/testing/mllibutils.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_testing_mlutils_py.html">pyspark/testing/mlutils.py</a></td>
+                <td>140</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="152 166">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_testing_sqlutils_py.html">pyspark/testing/sqlutils.py</a></td>
+                <td>129</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="140 147">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_testing_streamingutils_py.html">pyspark/testing/streamingutils.py</a></td>
+                <td>92</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="109 130">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_testing_utils_py.html">pyspark/testing/utils.py</a></td>
+                <td>82</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="86 96">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests___init___py.html">pyspark/tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_appsubmit_py.html">pyspark/tests/test_appsubmit.py</a></td>
+                <td>97</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="103 103">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_broadcast_py.html">pyspark/tests/test_broadcast.py</a></td>
+                <td>102</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>30</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="131 132">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_conf_py.html">pyspark/tests/test_conf.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 27">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_context_py.html">pyspark/tests/test_context.py</a></td>
+                <td>229</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="244 247">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_daemon_py.html">pyspark/tests/test_daemon.py</a></td>
+                <td>42</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="47 48">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_install_spark_py.html">pyspark/tests/test_install_spark.py</a></td>
+                <td>39</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="40 43">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_join_py.html">pyspark/tests/test_join.py</a></td>
+                <td>42</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 46">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_profiler_py.html">pyspark/tests/test_profiler.py</a></td>
+                <td>64</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="74 74">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_rdd_py.html">pyspark/tests/test_rdd.py</a></td>
+                <td>598</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td>172</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="758 770">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_rddbarrier_py.html">pyspark/tests/test_rddbarrier.py</a></td>
+                <td>24</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="27 28">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_readwrite_py.html">pyspark/tests/test_readwrite.py</a></td>
+                <td>148</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>32</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="180 180">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_serializers_py.html">pyspark/tests/test_serializers.py</a></td>
+                <td>166</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="184 186">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_shuffle_py.html">pyspark/tests/test_shuffle.py</a></td>
+                <td>117</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>52</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="166 169">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_taskcontext_py.html">pyspark/tests/test_taskcontext.py</a></td>
+                <td>214</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>60</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="267 274">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_util_py.html">pyspark/tests/test_util.py</a></td>
+                <td>51</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="60 63">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_tests_test_worker_py.html">pyspark/tests/test_worker.py</a></td>
+                <td>174</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="194 208">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_traceback_utils_py.html">pyspark/traceback_utils.py</a></td>
+                <td>38</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="44 52">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_util_py.html">pyspark/util.py</a></td>
+                <td>106</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td>30</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="80 136">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_version_py.html">pyspark/version.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="pyspark_worker_py.html">pyspark/worker.py</a></td>
+                <td>402</td>
+                <td>176</td>
+                <td>0</td>
+                
+                <td>186</td>
+                <td>17</td>
+                
+                <td class="right" data-ratio="311 588">53%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.2</a>,
+            created at 2021-07-31 21:16
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
